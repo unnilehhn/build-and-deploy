@@ -10,7 +10,7 @@ script:
 - npm run build
 deploy:
   provider: heroku
-  app: build-and-deploy
+  app: unnilehhn-build-and-deploy
   skip_cleanup: true
   api:
     key:
